@@ -5,16 +5,23 @@
 header {
     position: relative;
     top: -30px;
+}
+
+.page_headertext {
     text-align: left;
+}
+
+.notify_icon h1 {
+    text-align: right;
+    position: relative;
+    top: -60px;
+    margin-bottom: -35px;
+    color: #000000;
 }
 
 .page_description {
     color: grey;
     position: relative;
-    top: -35px;
-}
-
-hr {
-    position: relative;
-    top: -30px;
+    top: -15px;
+    text-align: left;
 }

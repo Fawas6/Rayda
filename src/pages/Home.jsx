@@ -1,4 +1,6 @@
 import React from 'react'
+import NotificationsIcon from '@mui/icons-material/NotificationsOutlined';
+import { textAlign } from '@mui/system';
 
 export default function Home() {
   return (
@@ -6,8 +8,11 @@ export default function Home() {
 
       <header>
         <div>
-            <span><h1>Welcome</h1></span><br/>
-            <span className='page_description'>Your current sales auction and activity.</span>
+            <div className='page_headertext'>
+             <div><h1>Welcome</h1></div>
+             <div className='notify_icon'><h1><NotificationsIcon /></h1></div>
+            </div>
+            <div className='page_description'>Your current sales auction and activity.</div>
             <hr/>
         </div>
       </header>
