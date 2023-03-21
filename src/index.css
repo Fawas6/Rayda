@@ -25,3 +25,24 @@ header {
     top: -15px;
     text-align: left;
 }
+
+.gradient_screen {
+    height: 180px;
+    width: 100%;
+    background: linear-gradient(150deg, #981ee3 45%, #fb9d79, #fee989);
+    border-radius: 13px;
+}
+
+.rayda_logo {
+    background: #f4ebfe;
+    border: #ffffff 4px solid;
+    border-radius: 20px;
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    position: relative;
+    top: -60px;
+    display: -webkit-box;
+    margin-right: auto;
+    margin-left: 30px;
+}
