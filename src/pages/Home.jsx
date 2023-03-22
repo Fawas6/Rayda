@@ -3,6 +3,7 @@ import NotificationsIcon from '@mui/icons-material/NotificationsOutlined';
 import CircleIcon from '@mui/icons-material/Circle'
 import ThumbUpAltOutlinedIcon from '@mui/icons-material/ThumbUpAltOutlined'
 import { fontSize, textAlign } from '@mui/system';
+import { Button } from '@mui/material';
 
 export default function Home() {
   return (
@@ -35,8 +36,9 @@ export default function Home() {
 
         <section className='sec_two'>
             <div className='sec_two_heading'>
-                <div className='Featured_items'><h3>Featured Items</h3></div>
-                <span style={{ color: '#464444', fontSize: '15px', border: '#d4d4d5 1px solid', padding: '10px', borderRadius: '7px', fontWeight: 'bolder' }}>View Auction</span>
+                <div className='featured_items'><h3>Featured Items</h3></div>
+                {/*<span className='view_auction' style={{ color: '#464444', fontSize: '15px', border: '#d4d4d5 1px solid', padding: '10px', borderRadius: '7px', fontWeight: 'bolder' }}>View Auction</span>*/}
+                <div className='align_left_right'><Button className='view_auction' variant='outlined' sx={{ color: '#464444', fontSize: '15px', border: '#d4d4d5 1px solid', borderRadius: '7px', fontWeight: 'bolder' }} >View Auction</Button></div>
             </div>
         </section>
 

@@ -80,8 +80,20 @@ hr {
 }
 
 .sec_two_heading {
-    text-align: left;
     margin-top: -50px;
+}
+
+.featured_items {
+    text-align: left;
+}
+
+.align_left_right {
+    display: flex!important;
+    justify-content: left!important;
+}
+
+.view_auction {
+    text-transform: capitalize!important;
 }
 
 @media only screen and (min-width: 768px) {
@@ -107,6 +119,15 @@ hr {
         height: 290px;
         box-shadow: 0px 0px 5px -3px grey;
     }
+    .sec_two_heading {
+        position: relative;
+        top: 95px;
+    }
+    .view_auction {
+        text-align: right;
+        position: relative;
+        top: -50px;
+    }
 }
 
 @media only screen and (min-width: 880px) {
@@ -116,5 +137,8 @@ hr {
     }
     .sec_one {
         height: 280px;
+    }
+    .align_left_right {
+        justify-content: right!important;
     }
 }
