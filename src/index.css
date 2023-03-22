@@ -64,7 +64,7 @@ hr {
 .thumb {
     margin-right: 5px;
     position: relative;
-    top: 6px;
+    top: -1px;
 }
 
 .time {
@@ -96,6 +96,15 @@ hr {
     text-transform: capitalize!important;
 }
 
+.sec_two hr {
+    height: 1px;
+    background-color: #d4d4d5;
+    border: none;
+    opacity: 0.5;
+    position: relative;
+    top: 20px;
+}
+
 @media only screen and (min-width: 768px) {
     .time {
         margin-left: 210px;
@@ -105,7 +114,7 @@ hr {
     .invite {
         text-align: right;
         position: relative;
-        top: -195px;
+        top: -180px;
     }
     .sec_one {
         border: #f6f6f8 1px solid;
@@ -128,17 +137,27 @@ hr {
         position: relative;
         top: -50px;
     }
+    .align_left_right {
+        justify-content: right!important;
+    }
+    .sec_two hr {
+        position: relative;
+        top: 57px;
+    }
 }
 
-@media only screen and (min-width: 880px) {
+@media only screen and (min-width: 785px) {
+    .invite {
+        top: -150px;
+    }
+}
+
+@media only screen and (min-width: 946px) {
     .invite {
         position: relative;
-        top: -235px;
+        top: -187px;
     }
     .sec_one {
         height: 280px;
-    }
-    .align_left_right {
-        justify-content: right!important;
     }
 }

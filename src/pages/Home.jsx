@@ -30,16 +30,17 @@ export default function Home() {
                 <span style={{ color: "#b16208", fontSize: '15px', border: '#fffaeb 1px solid', padding: '5px', paddingLeft: '12px', paddingRight: '12px', background: '#fffaeb', borderRadius: '20px' }}><CircleIcon className='dot' sx={{ fontSize: '8px' }} /><b>Not Live</b></span><span style={{ color: "#646464", marginLeft: "10px", fontWeight: "520" }}>Layers Auction</span>
             </div>
             <div className='invite'>
-                <span style={{ color: '#464444', fontSize: '15px', border: '#d4d4d5 1px solid', padding: '10px', borderRadius: '7px', fontWeight: 'bolder' }}><ThumbUpAltOutlinedIcon className='thumb' sx={{ color: '#464444' }} />Accept Invite</span>
+                <Button className='view_auction' variant='outlined' sx={{ color: '#464444', fontSize: '15px', border: '#d4d4d5 1px solid', borderRadius: '7px', fontWeight: 'bolder' }} ><ThumbUpAltOutlinedIcon className='thumb' sx={{ color: '#464444' }} />Accept Invite</Button>
             </div>
         </section>
 
         <section className='sec_two'>
             <div className='sec_two_heading'>
                 <div className='featured_items'><h3>Featured Items</h3></div>
-                {/*<span className='view_auction' style={{ color: '#464444', fontSize: '15px', border: '#d4d4d5 1px solid', padding: '10px', borderRadius: '7px', fontWeight: 'bolder' }}>View Auction</span>*/}
                 <div className='align_left_right'><Button className='view_auction' variant='outlined' sx={{ color: '#464444', fontSize: '15px', border: '#d4d4d5 1px solid', borderRadius: '7px', fontWeight: 'bolder' }} >View Auction</Button></div>
             </div>
+            <hr/>
+            
         </section>
 
       </body>
