@@ -4,6 +4,7 @@ import CircleIcon from '@mui/icons-material/Circle'
 import ThumbUpAltOutlinedIcon from '@mui/icons-material/ThumbUpAltOutlined'
 import { fontSize, textAlign } from '@mui/system';
 import { Button } from '@mui/material';
+import Items from '../redux/Items';
 
 export default function Home() {
   return (
@@ -20,7 +21,7 @@ export default function Home() {
         </div>
       </header>
 
-      <body>
+      <main>
 
         <section className='sec_one'>
             <div className='gradient_screen'></div>
@@ -40,10 +41,13 @@ export default function Home() {
                 <div className='align_left_right'><Button className='view_auction' variant='outlined' sx={{ color: '#464444', fontSize: '15px', border: '#d4d4d5 1px solid', borderRadius: '7px', fontWeight: 'bolder' }} >View Auction</Button></div>
             </div>
             <hr/>
-            
         </section>
 
-      </body>
+        <section className='sec_three'>
+            <Items />
+        </section>
+
+      </main>
 
     </div>
   )

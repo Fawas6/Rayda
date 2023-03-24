@@ -4,6 +4,7 @@ import { HashRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import NoPage from './pages/NoPage'
 
+
 function App() {
   //const [count, setCount] = useState(0)
 
