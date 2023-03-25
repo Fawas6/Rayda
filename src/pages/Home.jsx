@@ -34,19 +34,19 @@ export default function Home() {
                 <Button className='view_auction' variant='outlined' sx={{ color: '#464444', fontSize: '15px', border: '#d4d4d5 1px solid', borderRadius: '7px', fontWeight: 'bolder' }} ><ThumbUpAltOutlinedIcon className='thumb' sx={{ color: '#464444' }} />Accept Invite</Button>
             </div>
         </section>
+        <section className='container_sec2_sec3'>
+            <section className='sec_two'>
+                <div className='sec_two_heading'>
+                    <div className='featured_items'><h3>Featured Items</h3></div>
+                    <div className='align_left_right'><Button className='view_auction' variant='outlined' sx={{ color: '#464444', fontSize: '15px', border: '#d4d4d5 1px solid', borderRadius: '7px', fontWeight: 'bolder' }} >View Auction</Button></div>
+                </div>
+                <hr/>
+            </section>
 
-        <section className='sec_two'>
-            <div className='sec_two_heading'>
-                <div className='featured_items'><h3>Featured Items</h3></div>
-                <div className='align_left_right'><Button className='view_auction' variant='outlined' sx={{ color: '#464444', fontSize: '15px', border: '#d4d4d5 1px solid', borderRadius: '7px', fontWeight: 'bolder' }} >View Auction</Button></div>
-            </div>
-            <hr/>
+            <section className='sec_three'>
+                <Items />
+            </section>
         </section>
-
-        <section className='sec_three'>
-            <Items />
-        </section>
-
       </main>
 
     </div>

@@ -162,6 +162,25 @@ hr {
     font-weight: 100;
 }
 
+.item_image_container {
+    text-align: center;
+}
+
+@media only screen and (min-width: 600px) {
+    .container_sec2_sec3 {
+        height: 1935px;
+    }
+    .displayed_items_container2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 60px 10px;
+    }
+    .displayed_items {
+        margin-bottom: -20px;
+    }
+}
+
 @media only screen and (min-width: 768px) {
     .time {
         margin-left: 210px;
@@ -175,19 +194,20 @@ hr {
     }
     .sec_one {
         border: #f6f6f8 1px solid;
-        border-radius: 7px;
+        border-radius: 15px;
         position: relative;
         top: 13px;
         padding-top: 25px;
         padding-left: 25px;
         padding-right: 25px;
-        padding-bottom: 5px;
+        padding-bottom: 25px;
         height: 290px;
         box-shadow: 0px 0px 5px -3px grey;
     }
     .sec_two_heading {
         position: relative;
         top: 95px;
+        margin-top: -80px;
     }
     .view_auction {
         text-align: right;
@@ -204,15 +224,27 @@ hr {
     .displayed_items_container {
         position: relative;
         top: 80px;
+    }
+    .container_sec2_sec3 {
         border: #f6f6f8 1px solid;
-        border-radius: 7px;
-        padding-top: 25px;
+        border-radius: 15px;
+        padding-top: -100px;
         padding-left: 25px;
         padding-right: 25px;
-        padding-bottom: 25px;
-        height: 3425px;
+        height: 1905px;
         box-shadow: 0px 0px 5px -3px grey;
-        margin-bottom: 70px;
+        margin-bottom: 30px;
+        position: relative;
+        top: 40px;
+    }
+    .displayed_items_container2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 60px 10px;
+    }
+    .displayed_items {
+        margin-bottom: -20px;
     }
 }
 
@@ -229,5 +261,23 @@ hr {
     }
     .sec_one {
         height: 280px;
+    }
+    .displayed_items_container2 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 60px 10px;
+    }
+    .container_sec2_sec3 {
+        height: 1490px;
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+    .displayed_items_container2 {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .container_sec2_sec3 {
+        height: 1050px;
     }
 }

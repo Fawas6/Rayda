@@ -3,19 +3,10 @@ import { setupListeners } from '@reduxjs/toolkit/query'
 import { DataApi } from './apiSlice'
 
 export const store = configureStore({
-        reducer: {
-            [DataApi.reducerPath]: DataApi.reducer,
-        },
-        middleware: (gDM) => gDM().concat(DataApi.middleware),
-        devTools: true,
-    })
-    /*const reducer = combineReducers({
+    reducer: {
         [DataApi.reducerPath]: DataApi.reducer,
-    })
-
-    export const store = configureStore({
-        reducer,
-        middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(DataApi.middleware),
-    });*/
-
+    },
+    middleware: (gDM) => gDM().concat(DataApi.middleware),
+    devTools: true,
+})
 setupListeners(store.dispatch)

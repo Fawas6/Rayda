@@ -7,11 +7,6 @@ export const DataApi = createApi({
     baseQuery: fetchBaseQuery({
         baseUrl: API_URL,
         method: 'GET',
-        /*prepareHeaders: headers => {
-            headers.set('Content-Type', 'application/json')
-            return headers
-        },*/
-        /*fetchFn: (...args) => fetch(`https://cors-anywhere.herokuapp.com/${args[0]}`, ...args.slice(1)),*/
     }),
     endpoints: (builder) => ({
         getData: builder.query({
