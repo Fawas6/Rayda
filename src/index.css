@@ -114,10 +114,19 @@ hr {
     font-weight: 700;
     font-size: 14px;
     text-align: left;
+    border: #f6f6f8 1px solid;
+    border-radius: 7px;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 5px;
+    height: 100%;
+    box-shadow: 0px 0px 5px -3px grey;
+    margin-bottom: 30px;
 }
 
 .item_image {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .item_name {
@@ -127,11 +136,12 @@ hr {
 }
 
 .item_title {
-    margin-bottom: 17px;
+    margin-bottom: 20px;
 }
 
 .item_bid {
     color: #464444;
+    margin-bottom: 10px;
 }
 
 .KO {
@@ -171,7 +181,7 @@ hr {
         padding-top: 25px;
         padding-left: 25px;
         padding-right: 25px;
-        padding-bottom: 25px;
+        padding-bottom: 5px;
         height: 290px;
         box-shadow: 0px 0px 5px -3px grey;
     }
@@ -194,6 +204,15 @@ hr {
     .displayed_items_container {
         position: relative;
         top: 80px;
+        border: #f6f6f8 1px solid;
+        border-radius: 7px;
+        padding-top: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 25px;
+        height: 3425px;
+        box-shadow: 0px 0px 5px -3px grey;
+        margin-bottom: 70px;
     }
 }
 
